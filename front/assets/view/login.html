@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style/login.css">
+    
+    <title>CatConnect</title>
+</head>
+<body>
+    
+   <nav>
+
+
+    <ul class="nav-links">
+        <li><a href="../../index.html">Home &#128062;</a></li>
+        <li><a href="./register.html">Register &#128062;</a></li>
+        <li><a href="./contact.html">Contact &#128062;</a></li>
+    </ul>
+   </nav>
+
+   <div class="wrapper fadeInDown">
+    <div id="formContent">
+      
+      <a href="./login.html"><h2 class="active"> Sign In </h2></a>
+      <a href="./register.html"><h2 class="inactive underlineHover">Sign Up</h2></a>
+
+      
+      <div class="fadeIn first">
+        <img src="/assets/img/CATCONNECT.gif" id="icon" alt="User Icon" />
+      </div>
+
+      
+      <div id="login_form">
+        <label for="login">
+          <input type="email" id="login" class="fadeIn second" name="login" placeholder="login">
+        </label>
+        <label for="password">
+          <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
+        </label>
+        <input type="submit" class="fadeIn fourth" value="Log In" onclick="login()">
+      </div>
+      </div>
+
+      
+      <div id="formFooter">
+        <a class="underlineHover" href="#">Forgot Password?</a>
+      </div>
+    </div>
+  </div>
+
+
+
+   <footer>
+    <p> &#128062;   &copy; 2024 CatConnect  &#128062;</p>
+</footer> 
+</body>
+<script src="../js/login.js"></script>
+
+</html>

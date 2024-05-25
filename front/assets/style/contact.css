@@ -1,0 +1,148 @@
+body {
+    background-image: url(/assets/img/catconnectwall2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #214fc4;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+nav {
+    backdrop-filter: blur(10px);
+    background-color: rgba(250, 235, 215, 0.485);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff86e5ec;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #150101;
+}
+
+footer a {
+    color: #999;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #333;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+input, button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="checkbox"] {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.checkbox-label {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.foro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 99px solid black ;
+    backdrop-filter: blur(4px);
+}
+
+h2{
+   display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    left: 11%;
+    height: 150px;
+    width: 100px;
+}

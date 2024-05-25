@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style/contact.css">
+    <title>CatConnect</title>
+</head>
+<body>
+    
+   <nav>
+
+
+    <ul class="nav-links">
+        <li><a href="/index.html">Home &#128062;</a></li>
+        <li><a href="./user.html">User &#128062;</a></li>
+        <li><a href="./landingPage.html">FYP &#128062;</a></li>
+        <li><a href="#" onclick="logout()">Disconnect &#128062;</a></li>
+        
+    </ul>
+   </nav>
+
+   <div class="logo">
+
+    <img src="../img/CONTACTUS.gif" alt="CatConnect logo">
+   </div>
+
+   <div  class="contact">
+
+    <h2 class="titlecontact">Contact Us</h2>
+    <div class="foro">
+        <label for="profession">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="text">Message</label>
+        <textarea type="text" id="message" name="message" required></textarea>
+        <button onclick="sendEmail()">Send</button>
+    </div>
+
+   </div>
+
+
+
+
+   <footer>
+    <p> &#128062;   &copy; 2024 CatConnect  &#128062;</p>
+</footer>
+<script src="../js/contact.js"></script> 
+</html>
