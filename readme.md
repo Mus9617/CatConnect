@@ -1,6 +1,6 @@
-# CATCONNECT
+# CATCONNECT &#128062;
 
-!![Alt Text](/ignore/catconnect.png)
+![Alt Text](/ignore/catconnect.png)
 
 
 CatConnect is a social web application designed specifically for cat lovers. This platform allows users to join and share their favorite cat images, fostering a community of like-minded individuals.
